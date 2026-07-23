@@ -1,6 +1,6 @@
 # Carbon Lua API
 
-Lua 5.4. Scripts run on the game script fiber. Press `` ` `` in-game for the console.
+Our scripts run on lua5.4 Press `` ` `` in-game for the console.
 
 Available libraries: `base`, `table`, `string`, `math`, `coroutine`.  
 Not available: `io`, `os`, `package`, `debug`.
