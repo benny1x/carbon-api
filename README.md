@@ -1180,10 +1180,10 @@ Lightweight string utilities (ASCII case folding). Same helpers are also on `uti
 
 ## fs
 
-Store script data in Carbon's secure local folder. Paths are relative and cannot escape the script directory. Max file size: `8 MB`.
+Store script data (like images, fonts, etc) in Carbon's secure local folder (\AppData\Local\Carbon\data\lua). Paths are relative and cannot escape the script directory. Max file size: `8 MB`.
 
 > [!TIP]
-> Prefix a path with `cache:` (e.g. `"cache:avatar.png"`) to read from Carbon's shared cache directory instead of your script's own sandbox — e.g. the Rockstar/Social Club avatar Carbon's own menu already downloads for every user. Same traversal protections apply. Works with `imgui.image`/`imgui.draw_image`/`fs.*`.
+> Prefix a path with `cache:` (e.g. `"cache:avatar.png"`) to read from Carbon's shared cache directory instead of your script's own sandbox — e.g. the avatar Carbon's own menu already downloads for every user. Same traversal protections apply. Works with `imgui.image`/`imgui.draw_image`/`fs.*`.
 
 | Function | Returns |
 | --- | --- |
